@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav>
+            <h2>Shop</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <i class="material-icons">add_shopping_cart</i>
+                        Cart<span>0</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <a style="cursor: pointer; margin: 10px; background-color: lightcoral; padding: 5px;" class="clear-local">clear local storage</a>
+
+    <section class="shop">
+        <div class="container">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1046&q=80" alt="Headphones Image">
+                <h3>Headphones</h3>
+                <h3>$100</h3>
+                <a class="add-cart cart1">Add to Cart</a>
+            </div>
+
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1571126770247-9a99e5f7eff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="Smartphone Image">
+                <h3>Smartphone</h3>
+                <h3>$500</h3>
+                <a class="add-cart cart2">Add to Cart</a>
+            </div>
+
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1579493593642-e98d33cc52a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="Mouse and Keyboard Image">
+                <h3>Mouse and Keyboard</h3>
+                <h3>$150</h3>
+                <a class="add-cart cart3">Add to Cart</a>
+            </div>
+
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1587843618590-dd2f6ea2ccf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="Joystick Image">
+                <h3>Joystick</h3>
+                <h3>$65</h3>
+                <a class="add-cart cart4">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+
+</body>
+</html>
